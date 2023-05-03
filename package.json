@@ -1,0 +1,8 @@
+{
+  "name": "front-end",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:odvieira/petati.git",
+  "author": "Daniel Vieira <dvieira@alunos.utfpr.edu.br>",
+  "license": "MIT"
+}
