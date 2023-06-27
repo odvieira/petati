@@ -8,7 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from "./pages/Home/Home";
 import Layout from "./Layout/Layout";
 import About from "./pages/About/About";
-import Group from "./pages/Group/Group";
+import Group from "./pages/GroupCard/GroupCard";
 import Activity from "./pages/Activity/Activity";
 import NotFound from "./pages/NotFound/NotFound";
 import Search from "./pages/Search/Search";

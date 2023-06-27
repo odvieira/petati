@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Navbar, Nav, Button, Form, FormControl } from "react-bootstrap";
+import { Navbar, Nav } from "react-bootstrap";
 export default class NavBar extends Component {
     state = {};
 
@@ -12,14 +12,6 @@ export default class NavBar extends Component {
                     <Nav.Link href="/search">Buscar</Nav.Link>
                     <Nav.Link href="/about">Sobre</Nav.Link>
                 </Nav>
-                {/* <Form inline>
-                    <FormControl
-                        type="text"
-                        placeholder="Search"
-                        className="mr-sm-2"
-                    />
-                    <Button variant="outline-info">Search</Button>
-                </Form> */}
             </Navbar>
         );
     }
