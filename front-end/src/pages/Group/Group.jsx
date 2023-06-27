@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const Group = ({
     id,
@@ -18,25 +18,12 @@ const Group = ({
     saibamais,
     estado,
     siteInstitucional }) => {
+
+  const [groupsList, setGroupsList] = useState({})
+  
   return (
     <div>
-        <p>{id}</p>
-        <p>{nome}</p>
-        <p>{universidade}</p>
-        <p>{campus}</p>
-        <p>{cidade}</p>
-        <p>{email}</p>
-        <p>{site}</p>
-        <p>{eixo}</p>
-        <p>{temática}</p>
-        <p>{anocriacao}</p>
-        <p>{instagram}</p>
-        <p>{facebook}</p>
-        <p>{twitter}</p>
-        <p>{youtube}</p>
-        <p>{saibamais}</p>
-        <p>{estado}</p>
-        <p>{siteInstitucional}</p>
+        {}
     </div>
   )
 }
